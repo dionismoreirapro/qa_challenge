@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dionis Moreira",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "ajv": "^8.13.0",
+    "axios": "^1.7.0",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "Dionis Moreira",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^3.2.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinations": true,
+    "stepDefinitions": "cypress/e2e/steps/"
+  }
+}
