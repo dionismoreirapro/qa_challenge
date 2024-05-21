@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-21T02:36:39.388Z",
+    "end": "2024-05-21T02:37:16.403Z",
+    "duration": 37015,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "13b80bed-e7b0-4203-8447-3e2c0e2702f3",
+      "title": "",
+      "fullFile": "/Users/dionismoreira/Documents/stefanini/mobile/e2e/mobile_test.js",
+      "file": "/e2e/mobile_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+          "title": "views",
+          "fullFile": "/Users/dionismoreira/Documents/stefanini/mobile/e2e/mobile_test.js",
+          "file": "/e2e/mobile_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"views\"",
+              "fullTitle": "views \"before all\" hook: codeceptjs.beforeSuite in \"views\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "88acb460-e20a-4ae6-a04f-afc07dd784c5",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"views\"",
+              "fullTitle": "views \"before each\" hook: codeceptjs.before in \"views\"",
+              "timedOut": false,
+              "duration": 3875,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "2c9145cf-1dea-46b6-8bf9-037d0688c0da",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"views\"",
+              "fullTitle": "views \"after all\" hook: codeceptjs.afterSuite in \"views\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "5448d79d-d442-413d-95e9-2d0371393fd1",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"views\"",
+              "fullTitle": "views \"after each\" hook: finalize codeceptjs in \"views\"",
+              "timedOut": false,
+              "duration": 229,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "5d242616-2777-4b74-a7d7-ef02249aa58e",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Drag and Drop",
+              "fullTitle": "views: Drag and Drop",
+              "timedOut": false,
+              "duration": 6022,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, pageObjectPage }) => {\n  \n    I.click('~Views')\n    I.click('~Drag and Drop')\n    pageObjectPage.swipe()\n    I.closeApp();",
+              "err": {},
+              "uuid": "3e234848-09e5-40c9-b841-29d726caa38f",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Alert Dialogs",
+              "fullTitle": "views: Alert Dialogs",
+              "timedOut": false,
+              "duration": 5718,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.click('~App')\n    I.click('~Alert Dialogs')\n    I.click('#io.appium.android.apis:id/two_buttons')\n    I.waitForVisible('#android:id/title_template', 5);\n    I.click('#android:id/button1')   \n    I.closeApp();",
+              "err": {},
+              "uuid": "2a69e3ec-4df7-4791-9132-ca05b25cc5ab",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TextSwitcher",
+              "fullTitle": "views: TextSwitcher",
+              "timedOut": false,
+              "duration": 8790,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, pageObjectPage }) => {\n    I.click('~Views')\n    pageObjectPage.wipe()\n    I.waitForVisible('~TextSwitcher', 5);\n    I.click('~TextSwitcher')\n    I.click('~Next')\n    I.see('1')\n    I.closeApp();",
+              "err": {},
+              "uuid": "29fd33dd-839a-4bcb-832a-afc78ed9d486",
+              "parentUUID": "f7cdff72-4a02-4af3-9c7b-926466ebf51c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3e234848-09e5-40c9-b841-29d726caa38f",
+            "2a69e3ec-4df7-4791-9132-ca05b25cc5ab",
+            "29fd33dd-839a-4bcb-832a-afc78ed9d486"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20530,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "output/index.html"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

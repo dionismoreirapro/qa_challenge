@@ -1,7 +1,4 @@
-/// <reference types="Cypress"  />
-import DynamicElements from "../elements/dynamic_elements"
-
-const dynamic_elements = new DynamicElements
+/// <reference types="Cypress"  />  
 
  const url = Cypress.config('baseUrl')
 
