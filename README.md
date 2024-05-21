@@ -42,6 +42,6 @@
 }
 
 #### Execução dos testes
-> npx appium
+> npx appium </br>
 > npx codeceptjs run --reporter mochawesome
 
